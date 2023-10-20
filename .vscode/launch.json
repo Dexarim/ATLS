@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: YOLOv5 Object Detection",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Testing.py", // Укажите путь к вашему скрипту
+            "python": "${command:python.interpreterPath}",
+            "args": [],
+            "console": "integratedTerminal",
+            "env": {},
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [],
+            "postDebugTask": null,
+            "debugOptions": [],
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
